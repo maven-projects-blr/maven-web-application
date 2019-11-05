@@ -89,17 +89,16 @@
 
 	</dependencies>
 		<distributionManagement>
-
-	    <repository>
-	      <id>nexus</id>
-	      <name>Teja Technologies Releases Nexus Repository</name>
-              <url>http://13.233.165.43:8081/repository/amazon-release/</url>
-	    </repository>
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Teja Technologies Snapshot Nexus Repository</name>
-	      <url>http://13.233.165.43:8081/repository/amazon-snapshot/</url>
-	    </snapshotRepository>
+<repository>
+  <id>dev-azure-com-pruthvidevops92-pruthvidevops92</id>
+  <url>https://pkgs.dev.azure.com/pruthvidevops92/_packaging/pruthvidevops92/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
 
 </distributionManagement>
 	
